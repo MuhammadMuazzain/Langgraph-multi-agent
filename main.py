@@ -27,6 +27,10 @@ def serper_tool_callable(user_query):
     Returns:
         dict: Updated state with the generated answer.
     """
+    # print("--- Search Node ---")
+    # result = SerperDevTool().run(query = user_query)
+    # return result
+
     print("--- Search Node ---")
     result = SerperDevTool().run(query = user_query)
     return result
